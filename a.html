@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Watson - Web Designer & Developer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="a.css"> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script> <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      #animated-text {
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid;
+        animation: typing 2s steps(14, end), blink-caret .75s step-end infinite;
+        width: 0;
+        transition: width 0s steps(1);
+      }
+      @keyframes typing {
+        from { width: 0; }
+        to { width: 14ch; }
+      }
+      @keyframes blink-caret {
+        from, to { border-color: transparent; }
+        50% { border-color: currentColor; }
+      }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">UI Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pages
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownPages">
+                                <a class="dropdown-item" href="#">Page 1</a>
+                                <a class="dropdown-item" href="#">Page 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-primary btn-sm ml-lg-3" href="#">Hire Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1>Hi, I'm John Watson</h1>
+                        <h2><span id="animated-text">Web De</span></h2>
+                        <p class="lead">I love Graphic Design and Photography and have been working on my portfolio since 2016. I can give your business a new Creative start right away!</p>
+                        <div>
+                            <a href="#" class="btn btn-primary mr-2">Hire Me</a>
+                            <a href="#" class="btn btn-outline-secondary">My Portfolio</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image 1.png" alt="John Watson" class="img-fluid rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="Image 2.png" alt="John Watson Profile" class="img-fluid rounded-lg">
+                    </div>
+                    <div class="col-md-8">
+                        <small class="text-muted">MY BIO</small>
+                        <h2>A Lead UI Designer &amp; Web Developer Based In UK</h2>
+                        <p>I love Graphic Design and Photography and have been working on my portfolio since 2016. I can give your business a new Creative start right away! Message me and tell me about your project.</p>
+                        <ul class="list-unstyled">
+                            <li><strong>Name:</strong> John Watson</li>
+                            <li><strong>Email:</strong> john.watson@email.com</li>
+                            <li><strong>From:</strong> London, UK</li>
+                            <li><strong>Phone:</strong> +44 123 456 7890</li>
+                        </ul>
+                        <div>
+                            <strong>Follow me on</strong>
+                            <a href="#" class="mr-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="mr-2"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="mr-2"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="mt-3">
+                            <a href="#" class="btn btn-primary">Hire Me</a>
+                            <a href="#" class="btn btn-outline-success">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services py-5 bg-light">
+            <div class="container">
+                <h2>What I Do For You</h2>
+                <div class="row mt-4">
+                    <div class="col-md-4 mb-4">
+                        <div class="card p-3 text-center">
+                            <div class="icon-box bg-primary text-white rounded-circle mx-auto mb-3">
+                                <i class="fas fa-desktop fa-lg"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                            <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card p-3 text-center">
+                            <div class="icon-box bg-success text-white rounded-circle mx-auto mb-3">
+                                <i class="fas fa-mobile-alt fa-lg"></i>
+                            </div>
+                            <h3>App Development</h3>
+                            <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card p-3 text-center">
+                            <div class="icon-box bg-info text-white rounded-circle mx-auto mb-3">
+                                <i class="fas fa-camera fa-lg"></i>
+                            </div>
+                            <h3>Photography</h3>
+                            <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <a href="#" class="btn btn-outline-secondary">More Services <i class="fas fa-arrow-right ml-1"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img src="Image 4.png" alt="Skills Illustration" class="img-fluid rounded-lg">
+                    </div>
+                    <div class="col-md-6">
+                        <small class="text-muted">MY SKILLS</small>
+                        <h2>My Featured Skills</h2>
+                        <p>I specialize in Branding and Strategy, and am passionate about creating clean and user-friendly digital experiences. Below is a listing of my relevant skills. Let's bring your ideas to life together!</p>
+                        <div class="mt-4">
+                            <div class="progress-bar-wrapper mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span>UI/UX Design</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress-bar-wrapper mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span>Apps &amp; Technology</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress-bar-wrapper mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span>Marketing Design</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress-bar-wrapper mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span>Responsive Web Design</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <div class="card p-3 text-center">
+                            <div class="icon-box bg-primary text-white rounded-circle mx-auto mb-3">
+                                <i class="fas fa-code fa-lg"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                            <p class="text-muted">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card p-3 text-center">
+                            <div class="icon-box bg-success text-white rounded-circle mx-auto mb-3">
+                                <i class="fas fa-pencil-ruler fa-lg"></i>
+                            </div>
+                            <h3>Design Trends</h3>
+                            <p class="text-muted">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card p-3 text-center">
+                            <div class="icon-box bg-info text-white rounded-circle mx-auto mb-3">
+                                <i class="fas fa-search fa-lg"></i>
+                            </div>
+                            <h3>Research &amp; Analysis</h3>
+                            <p class="text-muted">Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card p-3 text-center">
+                            <div class="icon-box bg-warning text-white rounded-circle mx-auto mb-3">
+                                <i class="fas fa-headphones-alt fa-lg"></i>
+                            </div>
+                            <h3>Customer support</h3>
+                            <p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card p-3 text-center">
+                            <div class="icon-box bg-danger text-white rounded-circle mx-auto mb-3">
+                                 <i class="fas fa-mobile-screen-button fa-lg"></i>
+                            </div>
+                            <h3>Responsive design</h3>
+                            <p class="text-muted">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card p-3 text-center">
+                            <div class="icon-box bg-secondary text-white rounded-circle mx-auto mb-3">
+                                <i class="far fa-file-image fa-lg"></i>
+                            </div>
+                            <h3>PSD Design</h3>
+                            <p class="text-muted">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section class="stats py-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <h2 class="font-weight-bold">135</h2>
+                        <p class="text-muted">Happy Clients</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="font-weight-bold">225</h2>
+                        <p class="text-muted">Projects Done</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="font-weight-bold">96</h2>
+                        <p class="text-muted">Awards Won</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="font-weight-bold">15</h2>
+                        <p class="text-muted">Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio py-5 bg-light">
+            <div class="container">
+                <h2>Featured Works</h2>
+                <p class="text-muted">Check out my latest works</p>
+                <div class="row mt-4">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="img3.jpeg" alt="Portfolio Item 1" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Project Title 1</h3>
+                                <p class="card-text text-muted">Web Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="img2.jpeg" alt="Portfolio Item 2" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Project Title 2</h3>
+                                <p class="card-text text-muted">App Development</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="img3.jpeg" alt="Portfolio Item 3" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Project Title 3</h3>
+                                <p class="card-text text-muted">Photography</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <a href="#" class="btn btn-outline-secondary">More Projects <i class="fas fa-arrow-right ml-1"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-4 bg-dark text-white-50 text-center">
+        <div class="container">
+            <p>&copy; 2025 John Watson. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#animated-text').text("Web Developer");
+             $('#animated-text').css('width', '14ch');
+        });
+    </script>
+</body>
+</html>
