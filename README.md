@@ -27,3 +27,4 @@ Center Alignment: The image is centered vertically relative to the feature cards
 # Group Members
 Lucy Kihika
 Brian Bett
+Phinhas Odhiambo
